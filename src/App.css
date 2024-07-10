@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Arial', sans-serif; /* Use a common font for readability */
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ec008c; /* BookMyShow's primary color */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +23,28 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px; /* Add padding for spacing */
+}
+
+.App-title {
+  font-size: 2.5rem; /* Increase title font size */
+  margin-bottom: 20px; /* Add space below the title */
+}
+
+.App-subtitle {
+  font-size: 1.5rem; /* Subtitle font size */
+  margin-bottom: 40px; /* Larger margin for emphasis */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold font weight */
+  margin: 10px; /* Margin for links */
+}
+
+.App-link:hover {
+  text-decoration: underline; /* Underline on hover */
 }
 
 @keyframes App-logo-spin {
